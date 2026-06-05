@@ -1,0 +1,26 @@
+# Local config (contains DB credentials & salts)
+wp-config.php
+
+# Uploads & cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+*.log
+
+# Third-party / bundled plugins (install separately)
+wp-content/plugins/advanced-custom-fields-pro/
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Dependencies
+node_modules/
+vendor/
